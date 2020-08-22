@@ -1,0 +1,89 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- bye
+- thank
+- ess
+- leave
+- Outdoor
+- OutdoorApplication
+- payslip
+- tax_report
+- tax_calculator
+- form16
+- salary_statement
+- personal_details
+- medical_emergency
+- about
+- vedas
+- covid19
+- covid19_helpline
+- variable_pay
+- covid_employee_resignation
+- covid_salary_restructuring
+- covid_salary_tax
+- covid_impact_company
+- covid_revenue_target
+- cpds_amount_calculation
+- covid_layoffs
+- awards_recognition
+- yearly_reviews
+- yes
+- no
+
+responses:
+  utter_noworries:
+  - text: "No worries!"
+  utter_greet:
+  - text: "Hi"
+  utter_howcanihelp:
+  - text: "how can i help you?"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_any_more_questions:
+    - text: "Do you have anymore questions?"
+  utter_bye:
+  - text: "Bye!"
+  utter_about:
+  - text: "Hi, My name is vedas. I am here to help with you queries"
+  utter_vedas:
+  - text: "The Vedas,are a large body of religious texts originating in ancient India.\
+      \ Vedas mean KNOWLEDGE.\nI am learning all about Company and hopefully one day\
+      \ will solve all your queries with my KNOWLEDGE of Company"
+  utter_followup_response:
+    - text: "did that help you?"
+actions:
+- action_Outdoor
+- action_OutdoorApplication
+- action_payslip
+- action_tax_report
+- action_tax_calculator
+- action_form16
+- action_salary_statement
+- action_personal_details
+- action_medical_emergency
+- action_ess
+- action_leave
+- action_covid19
+- action_covid19_helpline
+- action_variable_pay
+- action_covid_employee_resignation
+- action_covid_hike_promotions
+- action_covid_salary_tax
+- action_covid_layoff
+- action_awards_recognitions
+- action_covid_impact_company
+- action_cpds_amount_calculation
+- action_covid_salary_restructuring
+- action_yearly_reviews
+- action_covid_revenue_target
+- action_did_that_help
+- action_no
+- action_utter_vpn
+- action_utter_GS_Labs
+- action_utter_kpoint
+- action_utter_vpn_issues
+- action_utter_vpn_authentication_issue
+- utter_vpn_barcode_issue

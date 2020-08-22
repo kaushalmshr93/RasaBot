@@ -1,0 +1,214 @@
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- bye
+- thank
+- ess
+- leave
+- Outdoor
+- OutdoorApplication
+- payslip
+- tax_report
+- tax_calculator
+- form16
+- salary_statement
+- personal_details
+- medical_emergency
+- about
+- vedas
+- covid19
+- covid19_helpline
+- variable_pay
+- covid_employee_resignation
+- covid_salary_restructuring
+- covid_salary_tax
+- covid_impact_gslab
+- covid_revenue_target
+- cpds_amount_calculation
+- covid_layoffs
+- awards_recognition
+- yearly_reviews
+- yes
+- no
+- inssurance_policy_claim
+- claim_registeration
+- documents_required_for_insurance
+- add_member_in_insurance_policy
+- policy
+- vpn
+- vpn_for_GS_Labs
+- vpn_for_kpoint
+- vpn_issues
+- vpn_authentication_issue
+- vpn_barcode_issue
+
+responses:
+  utter_noworries:
+  - text: "No worries!"
+  utter_greet:
+  - text: "Hi"
+  utter_howcanihelp:
+  - text: "how can i help you?"
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_any_more_questions:
+    - text: "Do you have anymore questions?"
+  utter_bye:
+  - text: "Bye!"
+  utter_about:
+  - text: "Hi, My name is vedas. I am here to help with you queries"
+  utter_vedas:
+  - text: "The Vedas,are a large body of religious texts originating in ancient India.\
+      \ Vedas mean KNOWLEDGE.\nI am learning all about GSLab and hopefully one day\
+      \ will solve all your queries with my KNOWLEDGE of GSLab"
+  utter_followup_response:
+  - text: "did that help you?"
+  utter_inssurance_policy:
+  - text: "Basic information about the policy is as below\n  – Log in to gslab.mdindia.com:81/\n
+       Insurance Company: The Oriental Insurance Company\n TPA: MD India\n Policy type:\n
+       Corporate Policy number: 163900/48/2021/00151\n Employee ID/ code:\n GS Lab employee:
+       719_ _ _ _(GS I’d number)\n (e.g. if GS ID is 1000 then employee ID appears as
+       7191000)\n kPoint employee. : 119_ _ _ _ (kPoint I’d number)\n (e.g. if MD ID is
+       1000 then employee ID appears as 1191000)\n Basic Sum Assured: INR 5,00,000.00"
+  utter_inssurance_policy_claim:
+  - text: 'There are two types of claims i.e. Cashless and Reimbursement. The details
+       are as below – Cashless: A.1. Selection of Cashless hospital List out a network
+       hospitals empanelled by MD India from www.mdindiaonline.com Call up the hospital
+       to confirm availability of the cashless facility under TPA MD India. Handover
+       to the network hospital a copy of MD India eCard GS ID Adhar card of the patient
+       as a KYC norms A.2. Follow-up with the TPA department of the hospital to answer
+       the queries raised by TPA for sanctioning the initial as well as the final approvals.
+       A.3. Settle the final bill by paying deductions as stated in the TPA’s final
+       bill. And seek the discharge A.4. TPA’s TAT to process approval of admission/discharge
+       is about 4 hours A.5. The non-declaration of policy details to the network hospital
+       will be the sole responsibility of the individual employee and will result into
+       an open billing and the deductions subsequently. A.6. For pre and post Hospitalisation
+       reimbursement of expenses follow the reimbursement  claim process as mentioned
+       below marking it as a supplementary/ Additional claim.   B.Reimbursement B.1.
+       Hospitalisation Intimation: Use the login, password and the basic information
+       below-. Log into GS Lab Insurance ePortal or MD India Hawk (mobile app) Send
+       email to punecorp1@mdindia.com  by filling up the required details. Retain a
+       copy of Intimation   B.2. Claim registration OR intimation  Your email is acknowledged
+       by an auto revert email with  a checklist of claim documents of Hospitalisation/
+       Root Canal Treatment Claim forms to be duly signed and sealed by the hospital
+       CCN claim control number confirming the registration of the claim B.3. Forward
+       scanned copies of all the original bills to  punecc@mdindia.com / clms_pune@mdindia.com
+       and  submit at the insurance help desk the original hard copies  to MD India
+       POC  time limit within 30 days from DOD.'
+  utter_claim_registeration:
+  - text: 'GS Lab MD India log in details and claim intimation process is described
+       below – Log in details: 1.1. GS Lab portal gslab.mdindia.com:81/ OR www.mdindiaonline.com
+       1.2.Username: GS ID 1.3.Password : DDMMYYYY Hospitalisation Intimation 2.1.
+       Mandatory to log into GS Lab portal or MD India Hawk (mobile app) 2.2 email
+       to punecorp1@mdindia.com with the reason of hospitalization with required details
+       Claim registration OR intimation 3.1 Hospitalization intimation is acknowledged
+       by an auto revert email 3.2 For Reimbursement: Submit the original bills to
+       MD India POC within 30 days from DOD 3.3 For cashless claims: Approach registered
+       hospital with copy of e-card, GS ID and patients Aadhar card'
+  utter_inssurance_documents:
+  - text: There are 5 claim documents required to submit. Checklist reimbursement
+          IRDA MDI Self Declaration Non PPN Declaration Claim document forwarding Submission
+          form
+  utter_add_member:
+  - text: 'There are three types of new additions are done and below are the details:
+       1. New joinee : Update your dependent details in EIMS within 7 days from your
+       date of joining or  contact to insurance@gslab.com / poonam.khichade@gslab.com
+       for information   2.New born : In case of a newborn addition in the policy employee
+       will have fill up details in below format and send it to insurance@gslab.com/poonam.khichade@gslab.com
+       within 30 days from the baby’s DOB  Baby’s name OR Son / daughter of (employee
+       name) Father/Mother DDMMMYYYY Male/Female    3. New family member (Post marriage
+       details) : In case of a new family member addition after marriage then employee
+       to fill up these details within 30 days from the date of marriage with gazette
+       copy of name change and marriage certificate and send it to insurance@gslab.com/poonam.khichade@gslab.com
+       Emp_ID Employee_name Relation_With_Employee DOB Gender DOM of employee GS-000
+       Employee_name Self Male/Female DDMMMYYYY Full name of Spouse DDMMMYYYY Male/Female
+       Full name of Father in law DDMMMYYYY Male/Female Full name of Mother in law
+       DDMMMYYYY Male/Female    4.Dependent’s deletion: in case of a death of a family
+       member, employee will have to submit below details with death certificate and
+       share it to insurance@gslab.com / poonam.khichade@gslab.com Emp_ID Employee_name
+       Relation_With_Employee Date of death Gender GS-000 Employee_name Self   Name
+       of dependent   DDMMMYYYY Male/Female'
+   utter_vpn:
+  - text: "Select one:"
+    buttons:
+    - title: "GS Labs"
+      payload: "utter_GS_Labs"
+     
+    - title: "kpoint"
+      payload: "utter_kpoint"
+     
+  - custom:
+  utter_GS_Labs:
+  - text:
+       "Step 1: Clear the cookies and cache from the browser and proceed to login as below link. \t Click on/or copy & paste a link : https://gslab-vpn.gslab.com/ You will be prompted to enter the credentials. Enter the AD credentials. \t Refer to the below screenshot. Eg: Username: gs-0336 & password would be AD password \t
+        \n Step 2: Once you are logged in scan the QR code using Sophos Authenticator. Click on 'PROCEED TO LOGIN' tab located on the left side of the screen. \t
+        \n Step 3: Once you clicked, it will redirect you to the credentials page again. \n Here enter the same username & your password would be the AD credentials
+        followed with the authenticator code generated on your Sophos authenticator on mobile. Eg: Password: AD credentials098765 \t
+        \n Step 4: Click on 'SSL VPN' tab on the left side of the screen click on 'DOWNLOAD CLIENT and CONFIGURATION FOR WINDOWS' / LINUX/ IOS as per your requirement. \t
+        \n Step 5: Install VPN client as per below \t
+        \n Step 6: For Windows user go Sophos client -> gs0xx@gslab.com_ssl_vpn_config click on connect with AD credentials along with Authenticator code generated on mobile. Now VPN is connected successfully."
+  utter_kpoint:
+  - text:
+      "Follow Below Step by Step Instructions got kPoint VPN Configuration \t
+      \n Step 1: Uninstall old version Sophos SSL VPN client if you installed on your machine earlier. \t
+      \n Step 2: Login to the Sophos User Portal at https://kpoint-vpn.kpoint.com Use your Active Directory credentials like below(the one you use to login to your office machine) \t
+      \n Username: EmployeeID (ktpl-XXXX) \t
+      \n Password : AD Password \t
+      \n Step 3: In SSL VPN tab Download Client and Configuration for Windows. \t
+      \n Step 4: Install Downloaded SSL VPN Client. \t
+      \n Step 5: On Taskbar select Sophos SSL VPN client and connect to ktpl-xxxx@gslab.com_ssl_vpn_config. \t
+      \n Step 6: You will get notification once you connected to VPN."
+  utter_vpn_issues:
+  - text:
+      "Step 1: Open sophos authenticator on your mobile device >> remove the GS Lab VPN token \t
+      \n Step 2: Open the browser in 'Incognito window'  >> at the top right on your browser, click More More and then New Incognito Window >> type in  https://gslab-vpn.gslab.com/  >> enter your AD (GS-xxxx) credentials. \t
+      \n Step 3: Scan the new QR code from the VPN portal. ( Note: please keep your laptop's brightness at optimum level to scan via portal ) \t
+      \n Step 4: Now use the newly associated VPN token for scanning the existing VPN client."
+ 
+  utter_vpn_authentication_issue:
+  - text:
+      "Step 1: Change AD password \t
+      \n Step 2: Go to Sophos client -> gs0xx@gslab.com_ssl_vpn_config click on connect with AD credentials along with Authenticator code generated on mobile. Now VPN is connected successfully. \t"
+
+  utter_vpn_barcode_issue:
+  - text:
+      "Step 1: Go to Sophos Authenticator App on your mobile \t
+      \n Step 2: Remove the Sophos token \t
+      \n Step 3: Now Click on/or copy & paste a link : https://gslab-vpn.gslab.com/ You will be prompted to enter the credentials. Enter the AD credentials. \t
+      \n Step 4: Once you are logged in scan the QR code using Sophos Authenticator. \t
+      \n Step 5: A new token is generated for Sophos \t
+      \n Step 6: Go to Sophos Client and enter the AD credentials along with newly generated Authenticator code. Now VPN is connected successfully"
+actions:
+- action_Outdoor
+- action_OutdoorApplication
+- action_payslip
+- action_tax_report
+- action_tax_calculator
+- action_form16
+- action_salary_statement
+- action_personal_details
+- action_medical_emergency
+- action_ess
+- action_leave
+- action_covid19
+- action_covid19_helpline
+- action_variable_pay
+- action_covid_employee_resignation
+- action_covid_hike_promotions
+- action_covid_salary_tax
+- action_covid_layoff
+- action_awards_recognitions
+- action_covid_impact_gslab
+- action_cpds_amount_calculation
+- action_covid_salary_restructuring
+- action_yearly_reviews
+- action_covid_revenue_target
+- action_did_that_help
+- action_no
+- action_utter_vpn
+- action_utter_GS_Labs
+- action_utter_kpoint
+- action_utter_vpn_issues
+- action_utter_vpn_authentication_issue
+- utter_vpn_barcode_issue
